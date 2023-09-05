@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1> TASK 5 </h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Form
+    </title>
+    <center>
+        <h1 style="color: blue;"> Registration Form </h1>
+    </center>
+</head>
+
+<body>
+    <style>
+        .c1 {
+            width: 24%;
+        }
+
+        .c2 {
+            width: 99%;
+        }
+
+        table {
+            text-align: left;
+        }
+    </style>
+    <center>
+        <table border="1" cellpadding="8" style="width: 90%;">
+            <tr>
+                <td class="c1"> <label for="FN"> <b> First Name </b> </label> </td>
+                <td> <input class="c2" type="text" name="FN"> </td>
+            </tr>
+            <tr>
+                <td class="c1"> <label for="LN"> <b> Last Name </b> </label> </td>
+                <td> <input class="c2" type="text" name="LN"></td>
+            </tr>
+            <tr>
+                <td class="c1"> <label for="Email"> <b> Email </b> </label> </td>
+                <td> <input class="c2" type="email" name="Email"></td>
+            </tr>
+            <tr>
+                <td class="c1"> <label for="Password"> <b> Password </b> </label> </td>
+                <td> <input class="c2" type="password" name="Password"> </td>
+            </tr>
+            <tr>
+                <td class="c1"> <label for="Re password"> <b> Re Enter Password </b> </label> </td>
+                <td> <input class="c2" type="password" name="Re Password"> </td>
+            </tr>
+            <tr>
+                <th rowspan="2"> <label for="gender"><b> Gender </label> </b> </th>
+                <td style="padding-left: 0%;">
+                    <input type="radio" id="Female" name="gend" value="gender"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="male" name="gend" value="gender"> Male
+                </td>
+                </div>
+            </tr>
+            <tr>
+                <td class="c1"> <label for="age"> <b> Age </b></label></td>
+                <td> <input class="c2" type="text" name="age"> </td>
+            </tr>
+            <tr>
+                <td class="c1"> <label for="state"> <b> State </b></label></td>
+                <td> <input class="c2" type="text" name="state"> </td>
+            </tr>
+            <tr>
+                <td class="c1"> <label for="Country"> <b> Country </b></label> </td>
+
+                <td> <select name="country" id="country">
+                        <option value="Select a Country">Select a Country</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Nepal"> Nepal</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="China">China</option>
+                        <option value="Sri Lanka"> Sri Lanka</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="c1"> <label for="lang"> <b> Languages known </b> </label></td>
+                <td> <input type="checkbox" name="English"> English
+                    <input type="checkbox" name="Hindi"> Hindi
+                    <input type="checkbox" name="Kannada"> Kannada
+                    <input type="checkbox" name="Telugu"> Telugu
+                </td>
+            </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox"> Hereby I declare all the given details are true
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> 
+                        <p> Login to <a href="https://ethnus.com/"> Ethnus </a> website</p> 
+                    </td>
+                </tr>
+        </table>
+        <br>
+        <div style="padding: 10px;">
+            <button type="button">Register</button>
+        </div>
+    </center>
+</body>
+
+</html>
